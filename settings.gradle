@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "TestPublishLibrary"
 include ':app'
+include ':mylibrary'

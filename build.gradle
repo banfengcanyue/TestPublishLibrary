@@ -6,6 +6,7 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"
+//        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.17.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -15,3 +16,14 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+//allprojects {
+//    repositories {
+//        mavenCentral()
+//    }
+//    tasks.withType(Javadoc) {
+//        options.addStringOption('Xdoclint:none', '-quiet')
+//        options.addStringOption('encoding', 'UTF-8')
+//    }
+//}
